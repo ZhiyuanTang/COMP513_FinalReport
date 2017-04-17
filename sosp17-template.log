@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 APR 2017 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 APR 2017 01:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -360,7 +360,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-<image00.png, id=16, 525.965pt x 63.23625pt>
+<image00.png, id=28, 525.965pt x 63.23625pt>
 File: image00.png Graphic file (type png)
  <use image00.png>
 Package pdftex.def Info: image00.png used on input line 66.
@@ -370,7 +370,7 @@ Overfull \hbox (22.98184pt too wide) in paragraph at lines 66--67
 [][] 
  []
 
-<image01.png, id=18, 543.02875pt x 127.47626pt>
+<image01.png, id=30, 543.02875pt x 127.47626pt>
 File: image01.png Graphic file (type png)
  <use image01.png>
 Package pdftex.def Info: image01.png used on input line 75.
@@ -402,14 +402,29 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
 
 
  <./image00.png> <./image01.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
- [2
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
+ []
+
+<image02.png, id=53, 291.489pt x 406.6392pt>
+File: image02.png Graphic file (type png)
+ <use image02.png>
+Package pdftex.def Info: image02.png used on input line 101.
+(pdftex.def)             Requested size: 291.48828pt x 406.63821pt.
+
+Overfull \hbox (51.48828pt too wide) in paragraph at lines 101--102
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
+[2 <./image02.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
  (./sosp17-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 
 
 Package rerunfilecheck Warning: File `sosp17-template.out' has changed.
@@ -417,17 +432,17 @@ Package rerunfilecheck Warning: File `sosp17-template.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `sosp17-template.out':
-(rerunfilecheck)             Before: 25D637987E4CE0440674A52EC2156D21;204
-(rerunfilecheck)             After:  D70BC4137694914757D26DFADEB7DBF1;359.
+(rerunfilecheck)             Before: 5B8B581DF044DF3F73D3A1ECA4D3C4F5;464
+(rerunfilecheck)             After:  DFB8514840B44FBDF7AB664BD46D0BF6;544.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 6978 strings out of 493014
- 101414 string characters out of 6133351
- 214444 words of memory out of 5000000
- 10423 multiletter control sequences out of 15000+600000
+ 6991 strings out of 493014
+ 101584 string characters out of 6133351
+ 214477 words of memory out of 5000000
+ 10432 multiletter control sequences out of 15000+600000
  18924 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,7n,35p,1013b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -436,10 +451,10 @@ exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on sosp17-template.pdf (2 pages, 105390 bytes).
+Output written on sosp17-template.pdf (2 pages, 236751 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 35 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
+ 24 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

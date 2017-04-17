@@ -95,6 +95,22 @@ In its most basic form it also includes a wait-queue and a spinlock that seriali
 
 \section{Interesting Findings}
 \subsection{Unique Optimistic Spinning in Linux Mutex Subsystem}
+While formally kernel mutexes are sleepable locks, it is the Mid-path(aka optimistic spinning) that makes the mutex subsystem now more practically a hybrid type. By simply not interrupting a task and busy-waiting for a few cycles instead of immediately sleeping, the performance of this lock has been seen to significantly improve a number of workloads. \\
+
+\begin{figure}[h!]
+	\includegraphics[scale=1]{image02.png}
+	\caption{Use of MCS and the Optimistic Spinning routine in the source code}
+\end{figure}
+
+
+\subsection{Use of MCS lock in linux kernel}
+In mutex subsystem, mutex spinners are queued up using MCS locks as talked about above. 
+The design of MCS lock and the difference between MCS lock and ordinary spinlock is also a very interesting design decision in linux kernel.\\
+The concept of a spinlock is simple and straight-forward. When a thread wants to acquire the lock it will attempt to set the lock bit of that spinlock with an atomic compare-and-swap(CAS) instruction and repeatedly spin there in the lock can not be acquired during one CAS. \\
+However, spinlocks have some fundamental problems. One of those is that every attemp to acquire a lock requires moving the cache line containing that lock to the local CPU. This cache-line bouncing can be extremely bad to performance for contended locks. Therefore, developers had been working on reducing the cache contention of spinlocks and thus, MCS locks were introduced by Tim Chen to solve this problem.
+
+
+\subsection{Bug in an obviously correct reference count code pattern}
 
 
 
