@@ -17,6 +17,7 @@
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{listings}
 
 \conferenceinfo{SOSP'17}{October 29--31, 2017, Shanghai, China}
 \copyrightyear{2017} 
@@ -141,6 +142,49 @@ In conclusion, an MCS lock is more complicated than a ordinary spinlock. But the
 
 \newpage
 \subsection{Bug in an obviously correct reference count code pattern}
+This bug comes from a kernel crash reported in July 2013. And this bug report had not been resolved until December 2013. And people found out surprisingly that an "obviously correct" reference count code pattern turns out to have potential data race problems that can lead to dangerous bugs. And understanding this bug requires a deep understanding about linux kernel mutex subsystem, especially its unique optimistic spinning phase. Before going deep into the analysis of the bug, let's first see a piece of code, which manipulates a structure called "s" and this structure is protected by a mutex embedded with it. 
+\lstset{language=C}
+\begin{lstlisting}
+int free = 0;
+
+mutex_lock(&s->lock);
+if (--s->refcount == 0) {
+	free = 1;
+}
+
+mutex_unlock(&s->lock);
+if (free) {
+	kfree(s);
+}
+
+\end{lstlisting}
+From a first look, this piece of code just "works". It simply locks s, decrements reference counter to s, detects whether we can free s, and then unlock s. However, because of the fact that current implementation of mutex has an optimistic spinning phase while acquiring the lock, this piece of code is no longer data race free. \\
+The structure mutex has an atomic counter and a spinlock. When the lock is free and one thread is going to acquire lock, it will atomically decrement the counter to 0 and continue, which is known as the fast path as specified in section 1.2.\\
+And when the thread is going to unlock mutex, it will atomically increment counter to 1 if counter is 0, which means that there are no waiting threads on this mutex currently. If the current value of counter is negative, the mutex\_unlock() routine need to also wake up the first waiting thread on mutex. In code the lifecycle of a mutex can be shown as below.
+\begin{lstlisting}
+spin_lock(&lock->wait_lock);
+atomic_set(&lock->count, 1);
+// wake up first waiting thread
+wake_up_process(); 
+spin_unlock(&lock->wait_lock);
+\end{lstlisting}
+At this point the bug gradually becomes clear to us. Because of the optimistic spinning phase, a newly coming thread which is currently doing optimistic spinning will immediately take the lock once it sees the effect of 
+\begin{lstlisting}
+atomic_set(&lock->count, 1);
+\end{lstlisting}
+Therefore, when the original owner of lock is calling 
+\begin{lstlisting}
+wake_up_process(); 
+\end{lstlisting}
+to wake up the next waiting thread, a newly coming thread already believes that it takes the lock and if this newly coming thread quickly frees the data structure containing the lock, the final 
+\begin{lstlisting}
+spin_unlock(&lock->wait_lock);
+\end{lstlisting}
+will be applied to already freed memory space, and thus causing all sorts of problems. \\
+Therefore, Linus Torvalds, the finder of this concurrency bug, concludes:\\
+
+\textit{In other words, it's unsafe to protect reference counts inside objects with anything but spinlocks and/or atomic refcounts. Or you have to have the lock "outside" the object you're protecting(which is often what you want for other reasons anyway, notably lookup)}\\
+
 
 \bibliographystyle{acm}
 % \bibliography{xxx}
