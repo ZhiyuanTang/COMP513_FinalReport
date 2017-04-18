@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 APR 2017 01:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 APR 2017 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -360,7 +360,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-<image00.png, id=28, 525.965pt x 63.23625pt>
+<image00.png, id=32, 525.965pt x 63.23625pt>
 File: image00.png Graphic file (type png)
  <use image00.png>
 Package pdftex.def Info: image00.png used on input line 66.
@@ -370,7 +370,7 @@ Overfull \hbox (22.98184pt too wide) in paragraph at lines 66--67
 [][] 
  []
 
-<image01.png, id=30, 543.02875pt x 127.47626pt>
+<image01.png, id=34, 543.02875pt x 127.47626pt>
 File: image01.png Graphic file (type png)
  <use image01.png>
 Package pdftex.def Info: image01.png used on input line 75.
@@ -402,47 +402,107 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
 
 
  <./image00.png> <./image01.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-<image02.png, id=53, 291.489pt x 406.6392pt>
+<image02.png, id=57, 291.489pt x 406.6392pt>
 File: image02.png Graphic file (type png)
  <use image02.png>
-Package pdftex.def Info: image02.png used on input line 101.
+Package pdftex.def Info: image02.png used on input line 103.
 (pdftex.def)             Requested size: 291.48828pt x 406.63821pt.
 
-Overfull \hbox (51.48828pt too wide) in paragraph at lines 101--102
+Overfull \hbox (51.48828pt too wide) in paragraph at lines 103--104
+[][] 
+ []
+
+[2 <./image02.png>] <mcslock0.png, id=66, 341.275pt x 83.31125pt>
+File: mcslock0.png Graphic file (type png)
+
+<use mcslock0.png>
+Package pdftex.def Info: mcslock0.png used on input line 115.
+(pdftex.def)             Requested size: 273.02036pt x 66.64908pt.
+
+Overfull \hbox (33.02036pt too wide) in paragraph at lines 115--116
 [][] 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 109--118
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
-[2 <./image02.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+ []
+
+<mcslock1.png, id=67, 867.24pt x 144.54pt>
+File: mcslock1.png Graphic file (type png)
+ <use mcslock1.png>
+Package pdftex.def Info: mcslock1.png used on input line 122.
+(pdftex.def)             Requested size: 346.88986pt x 57.81496pt.
+
+Overfull \hbox (106.88986pt too wide) in paragraph at lines 122--123
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--124
+
+ []
+
+<mcslock2.png, id=68, 867.24pt x 144.54pt>
+File: mcslock2.png Graphic file (type png)
+ <use mcslock2.png>
+Package pdftex.def Info: mcslock2.png used on input line 126.
+(pdftex.def)             Requested size: 346.88986pt x 57.81496pt.
+
+Overfull \hbox (106.88986pt too wide) in paragraph at lines 126--127
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--128
+
+ []
+
+<mcslock4.png, id=69, 867.24pt x 144.54pt>
+File: mcslock4.png Graphic file (type png)
+ <use mcslock4.png>
+Package pdftex.def Info: mcslock4.png used on input line 130.
+(pdftex.def)             Requested size: 286.1901pt x 47.69833pt.
+
+Overfull \hbox (46.1901pt too wide) in paragraph at lines 130--131
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--132
+
+ []
+
+<mcslock5.png, id=70, 867.24pt x 144.54pt>
+File: mcslock5.png Graphic file (type png)
+ <use mcslock5.png>
+Package pdftex.def Info: mcslock5.png used on input line 135.
+(pdftex.def)             Requested size: 260.17401pt x 43.36232pt.
+
+Overfull \hbox (20.17401pt too wide) in paragraph at lines 135--136
+[][] 
+ []
+
+[3 <./mcslock0.png> <./mcslock1.png> <./mcslock2.png> <./mcslock4.png> <./mcslo
+ck5.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
  (./sosp17-template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
-
-
-Package rerunfilecheck Warning: File `sosp17-template.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sosp17-template.out':
-(rerunfilecheck)             Before: 5B8B581DF044DF3F73D3A1ECA4D3C4F5;464
-(rerunfilecheck)             After:  DFB8514840B44FBDF7AB664BD46D0BF6;544.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 148.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 148.
+Package rerunfilecheck Info: File `sosp17-template.out' has not changed.
+(rerunfilecheck)             Checksum: C40D2C67976B838A34E99D74C9920409;556.
  ) 
 Here is how much of TeX's memory you used:
- 6991 strings out of 493014
- 101584 string characters out of 6133351
+ 7019 strings out of 493014
+ 102007 string characters out of 6133351
  214477 words of memory out of 5000000
- 10432 multiletter control sequences out of 15000+600000
+ 10453 multiletter control sequences out of 15000+600000
  18924 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,7n,35p,1013b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -451,10 +511,10 @@ exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on sosp17-template.pdf (2 pages, 236751 bytes).
+Output written on sosp17-template.pdf (4 pages, 268311 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 24 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
