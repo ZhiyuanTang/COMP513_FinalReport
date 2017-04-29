@@ -1,4 +1,4 @@
-\BOOKMARK [1][-]{section.1}{Breif History and Background}{}% 1
+\BOOKMARK [1][-]{section.1}{Brief History and Background}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{Why Mutex?}{section.1}% 2
 \BOOKMARK [2][-]{subsection.1.2}{Design and Implementation details}{section.1}% 3
 \BOOKMARK [1][-]{section.2}{Interesting Findings}{}% 4
@@ -6,7 +6,7 @@
 \BOOKMARK [2][-]{subsection.2.2}{Design and Use of MCS locks in linux kernel}{section.2}% 6
 \BOOKMARK [2][-]{subsection.2.3}{Bug in an obviously correct reference count code pattern}{section.2}% 7
 \BOOKMARK [1][-]{section.3}{Linux Implementation of Atomic Operations}{}% 8
-\BOOKMARK [2][-]{subsection.3.1}{Why we include implementation of atomic operations as part of our research of mutex subsystem}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Why we include implementation of atomic operations as part of our research on mutex subsystem}{section.3}% 9
 \BOOKMARK [2][-]{subsection.3.2}{Intro}{section.3}% 10
 \BOOKMARK [2][-]{subsection.3.3}{Atomic Operations on ARM Architecture}{section.3}% 11
 \BOOKMARK [2][-]{subsection.3.4}{Atomic Operations on x86 Architecture}{section.3}% 12
@@ -15,3 +15,4 @@
 \BOOKMARK [2][-]{subsection.4.1}{For Implementation and Design Highlights of Linux Mutex Subsystem}{section.4}% 15
 \BOOKMARK [2][-]{subsection.4.2}{For Linux Implementation of Atomic Operations}{section.4}% 16
 \BOOKMARK [1][-]{section.5}{Conclusion}{}% 17
+\BOOKMARK [1][-]{section.6}{Reference}{}% 18
