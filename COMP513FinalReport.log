@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 APR 2017 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 APR 2017 12:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -298,26 +298,26 @@ LaTeX Warning: Label `fig:ec' multiply defined.
 )
 \openout1 = `COMP513FinalReport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 38.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 39.
+Package hyperref Info: Link coloring OFF on input line 38.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -327,9 +327,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count138
 )
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
 (./COMP513FinalReport.out) (./COMP513FinalReport.out)
 \@outlinefile=\write4
@@ -366,55 +366,55 @@ e
 ))
 \c@lstlisting=\count145
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 42.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 43.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 42.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 
 
 LaTeX Warning: Copyright DOI has not been provided (\copyrightdoi ) on input li
-ne 43.
+ne 42.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
 
 Underfull \vbox (badness 5203) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 <image00.png, id=76, 525.965pt x 63.23625pt>
 File: image00.png Graphic file (type png)
  <use image00.png>
-Package pdftex.def Info: image00.png used on input line 74.
+Package pdftex.def Info: image00.png used on input line 73.
 (pdftex.def)             Requested size: 262.98184pt x 31.61804pt.
 
-Overfull \hbox (22.98184pt too wide) in paragraph at lines 74--75
+Overfull \hbox (22.98184pt too wide) in paragraph at lines 73--74
 [][] 
  []
 
 <image01.png, id=78, 543.02875pt x 127.47626pt>
 File: image01.png Graphic file (type png)
  <use image01.png>
-Package pdftex.def Info: image01.png used on input line 83.
+Package pdftex.def Info: image01.png used on input line 82.
 (pdftex.def)             Requested size: 271.5137pt x 63.73796pt.
 
-Overfull \hbox (31.5137pt too wide) in paragraph at lines 83--84
+Overfull \hbox (31.5137pt too wide) in paragraph at lines 82--83
 [][] 
  []
 
@@ -429,180 +429,199 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 <image02.png, id=98, 291.489pt x 406.6392pt>
 File: image02.png Graphic file (type png)
  <use image02.png>
-Package pdftex.def Info: image02.png used on input line 111.
-(pdftex.def)             Requested size: 276.91296pt x 386.30505pt.
+Package pdftex.def Info: image02.png used on input line 110.
+(pdftex.def)             Requested size: 291.48828pt x 406.63821pt.
 
-Overfull \hbox (36.91296pt too wide) in paragraph at lines 111--112
+Overfull \hbox (51.48828pt too wide) in paragraph at lines 110--111
 [][] 
  []
 
 <mcslock0.png, id=99, 341.275pt x 83.31125pt>
 File: mcslock0.png Graphic file (type png)
  <use mcslock0.png>
-Package pdftex.def Info: mcslock0.png used on input line 123.
+Package pdftex.def Info: mcslock0.png used on input line 122.
 (pdftex.def)             Requested size: 238.89085pt x 58.31746pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--126
+Underfull \hbox (badness 10000) in paragraph at lines 116--125
 
  []
 
 
-Underfull \vbox (badness 7722) has occurred while \output is active []
+Underfull \vbox (badness 2600) has occurred while \output is active []
 
  [2 <./image01.png> <./image02.png>] <mcslock1.png, id=111, 867.24pt x 144.54pt
 >
 File: mcslock1.png Graphic file (type png)
 
 <use mcslock1.png>
-Package pdftex.def Info: mcslock1.png used on input line 130.
+Package pdftex.def Info: mcslock1.png used on input line 129.
 (pdftex.def)             Requested size: 346.88986pt x 57.81496pt.
 
-Overfull \hbox (106.88986pt too wide) in paragraph at lines 130--131
+Overfull \hbox (106.88986pt too wide) in paragraph at lines 129--130
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
+Underfull \hbox (badness 10000) in paragraph at lines 127--131
 
  []
 
 <mcslock2.png, id=112, 867.24pt x 144.54pt>
 File: mcslock2.png Graphic file (type png)
  <use mcslock2.png>
-Package pdftex.def Info: mcslock2.png used on input line 134.
+Package pdftex.def Info: mcslock2.png used on input line 133.
 (pdftex.def)             Requested size: 346.88986pt x 57.81496pt.
 
-Overfull \hbox (106.88986pt too wide) in paragraph at lines 134--135
+Overfull \hbox (106.88986pt too wide) in paragraph at lines 133--134
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--136
+Underfull \hbox (badness 10000) in paragraph at lines 131--135
 
  []
 
 <mcslock4.png, id=113, 867.24pt x 144.54pt>
 File: mcslock4.png Graphic file (type png)
  <use mcslock4.png>
-Package pdftex.def Info: mcslock4.png used on input line 138.
+Package pdftex.def Info: mcslock4.png used on input line 137.
 (pdftex.def)             Requested size: 286.1901pt x 47.69833pt.
 
-Overfull \hbox (46.1901pt too wide) in paragraph at lines 138--139
+Overfull \hbox (46.1901pt too wide) in paragraph at lines 137--138
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--140
+Underfull \hbox (badness 10000) in paragraph at lines 135--139
 
  []
 
 <mcslock5.png, id=114, 867.24pt x 144.54pt>
 File: mcslock5.png Graphic file (type png)
  <use mcslock5.png>
-Package pdftex.def Info: mcslock5.png used on input line 143.
+Package pdftex.def Info: mcslock5.png used on input line 142.
 (pdftex.def)             Requested size: 260.17401pt x 43.36232pt.
 
-Overfull \hbox (20.17401pt too wide) in paragraph at lines 143--144
+Overfull \hbox (20.17401pt too wide) in paragraph at lines 142--143
 [][] 
  []
 
-[3 <./mcslock0.png> <./mcslock1.png> <./mcslock2.png> <./mcslock4.png> <./mcslo
-ck5.png>] (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <./mcslock0.png> <./mcslock1.png> <./mcslock2.png> <./mcslock4.png>]
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 158.
+(Font)              <7> on input line 157.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 158.
-LaTeX Font Info:    Try loading font information for OML+ptm on input line 158.
+(Font)              <5> on input line 157.
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 157.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 158.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 157.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 159.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--193
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
  []
 
-<Linux_generic_atomic.png, id=120, 534.99875pt x 415.5525pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+[4 <./mcslock5.png>]
+<Linux_generic_atomic.png, id=151, 534.99875pt x 415.5525pt>
 File: Linux_generic_atomic.png Graphic file (type png)
 
 <use Linux_generic_atomic.png>
-Package pdftex.def Info: Linux_generic_atomic.png used on input line 208.
-(pdftex.def)             Requested size: 267.49872pt x 207.77574pt.
+Package pdftex.def Info: Linux_generic_atomic.png used on input line 222.
+(pdftex.def)             Requested size: 240.74721pt x 186.99689pt.
 
-Overfull \hbox (27.49872pt too wide) in paragraph at lines 208--209
+Overfull \hbox (0.74721pt too wide) in paragraph at lines 222--223
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 \OT1/ptm/b/n/10 Figure 2. []\OT1/ptm/m/n/10 Generic Atomic Op-er-a-tions in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--213
+Underfull \hbox (badness 10000) in paragraph at lines 218--227
 
  []
 
-[4]
-Underfull \hbox (badness 1365) in paragraph at lines 215--233
+
+Underfull \hbox (badness 1365) in paragraph at lines 229--247
 \OT1/ptm/m/n/10 above in Linux ker-nel is in Lin-ux/arch/ar-m/in-clude/as-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--233
+Underfull \hbox (badness 10000) in paragraph at lines 229--247
 
  []
 
 <ARM_atomic.png, id=152, 559.08875pt x 707.64375pt>
 File: ARM_atomic.png Graphic file (type png)
  <use ARM_atomic.png>
-Package pdftex.def Info: ARM_atomic.png used on input line 236.
-(pdftex.def)             Requested size: 223.63153pt x 283.05249pt.
+Package pdftex.def Info: ARM_atomic.png used on input line 250.
+(pdftex.def)             Requested size: 251.5876pt x 318.43675pt.
 
-Overfull \hbox (1.68742pt too wide) in paragraph at lines 242--248
-\OT1/ptm/m/n/10 ux/arch/x86/include/asm/atomic.h. The source code is posted
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--248
-
- []
-
-[5 <./Linux_generic_atomic.png> <./ARM_atomic.png>]
-<x86_atomic.png, id=162, 488.57532pt x 605.26125pt>
-File: x86_atomic.png Graphic file (type png)
- <use x86_atomic.png>
-Package pdftex.def Info: x86_atomic.png used on input line 251.
-(pdftex.def)             Requested size: 244.28706pt x 302.62987pt.
-
-Overfull \hbox (4.28706pt too wide) in paragraph at lines 251--252
+Overfull \hbox (11.5876pt too wide) in paragraph at lines 250--251
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (1.68742pt too wide) in paragraph at lines 258--264
+\OT1/ptm/m/n/10 ux/arch/x86/include/asm/atomic.h. The source code is posted
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--264
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./Linux_generic_atomic.png>] <x86_atomic.png, id=160, 488.57532pt x 605.26
+125pt>
+File: x86_atomic.png Graphic file (type png)
+
+<use x86_atomic.png>
+Package pdftex.def Info: x86_atomic.png used on input line 267.
+(pdftex.def)             Requested size: 244.28706pt x 302.62987pt.
+
+Overfull \hbox (4.28706pt too wide) in paragraph at lines 267--268
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
@@ -610,61 +629,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--258
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (5.367pt too wide) in paragraph at lines 262--263
+Overfull \hbox (5.367pt too wide) in paragraph at lines 278--279
 \OT1/ptm/m/n/10 Linux Cross Ref-er-ence (http://lxr.free-electrons.com/source/)
 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
+[6 <./ARM_atomic.png> <./x86_atomic.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 280--282
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
-
- []
-
-
-Overfull \hbox (7.24828pt too wide) in paragraph at lines 273--275
-\OT1/ptm/m/n/10 It's ob-vi-ous that we should pre-fer to use mu-tex over semaph
-ore
- []
-
-
-Underfull \vbox (badness 3098) has occurred while \output is active []
-
- [6 <./x86_atomic.png>]
-Overfull \hbox (28.70659pt too wide) in paragraph at lines 280--281
-\OT1/ptm/m/n/10 http://lxr.free-electrons.com/source/Documentation/locking/mute
-x-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-
- []
-
-
-Overfull \hbox (24.85654pt too wide) in paragraph at lines 282--283
-\OT1/ptm/m/n/10 http://lxr.free-electrons.com/source/kernel/locking/mcs[]spinlo
-ck.h 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-
- []
-
-
-Overfull \hbox (29.5862pt too wide) in paragraph at lines 284--285
-\OT1/ptm/m/n/10 https://events.linuxfoundation.org/sites/events/files/slides/li
-nuxcon-
  []
 
 
@@ -673,18 +650,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--285
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Overfull \hbox (7.24828pt too wide) in paragraph at lines 289--291
+\OT1/ptm/m/n/10 It's ob-vi-ous that we should pre-fer to use mu-tex over semaph
+ore
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+\OT1/ptm/m/n/10 http://lxr.free-electrons.com/source/Documentation/mutex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 292.
-[7
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 292.
+Overfull \hbox (24.85654pt too wide) in paragraph at lines 298--299
+\OT1/ptm/m/n/10 http://lxr.free-electrons.com/source/kernel/locking/mcs[]spinlo
+ck.h 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
+[7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
  (./COMP513FinalReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 292.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 292.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
 Package rerunfilecheck Info: File `COMP513FinalReport.out' has not changed.
 (rerunfilecheck)             Checksum: DB56C5BF4FDF7465746204D6BF776A5D;1417.
 
@@ -694,12 +711,12 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  8438 strings out of 493014
- 122947 string characters out of 6133351
- 266065 words of memory out of 5000000
+ 122940 string characters out of 6133351
+ 265114 words of memory out of 5000000
  11807 multiletter control sequences out of 15000+600000
  17868 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,9n,72p,1016b,1328s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,9n,72p,1016b,1167s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
@@ -708,7 +725,7 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on COMP513FinalReport.pdf (7 pages, 502740 bytes).
+Output written on COMP513FinalReport.pdf (7 pages, 503197 bytes).
 PDF statistics:
  215 PDF objects out of 1000 (max. 8388607)
  180 compressed objects within 2 object streams
